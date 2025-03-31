@@ -21,7 +21,7 @@ if (isLoggedIn) {
         userMessage = "Welcome, User!";
     }
 } else {
-    userMessage = "Please log in to access the system.;"
+    userMessage = "Please log in to access the system";
 }
 
 console.log("User Message:", userMessage);
@@ -44,3 +44,7 @@ switch (userType) {
 }
 
 console.log("User Category:", userCategory);
+
+let isAuthenticated = true;
+let authenticationStatus = isAuthenticated ? "Authenticated" : "Not authenticated";
+console.log("Authentication Status:", authenticationStatus);
